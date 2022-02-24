@@ -1,0 +1,21 @@
+{
+  "name": "cookie-clicker-hax",
+  "version": "1.0.0",
+  "description": "Scripts for the all-mighty Cookie Clicker game",
+  "scripts": {
+    "build:bookmarklet": "uglifyjs src/bookmarklet.js -cm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlaanemaa/cookie-clicker-hax.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tlaanemaa/cookie-clicker-hax/issues"
+  },
+  "homepage": "https://github.com/tlaanemaa/cookie-clicker-hax#readme",
+  "devDependencies": {
+    "uglify-js": "^3.15.1"
+  }
+}
