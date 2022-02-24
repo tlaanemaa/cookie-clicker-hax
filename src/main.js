@@ -4,7 +4,7 @@ if (!window.___CLICKER_HX) {
     const cookie = document.getElementById("bigCookie");
     const click = () => {
       cookie.click();
-      setTimeout(click, 10);
+      setTimeout(click, 15);
     };
     click();
   })();
